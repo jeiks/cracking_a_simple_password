@@ -175,7 +175,7 @@ In this example it is:
 Let's interpret the instruction:
 ```
 jne 1283 is:
-  **j**ump short "to 1283" if **n**ot **e**qual (condition result).
+  Jump short "to 1283" if (condition result is) Not Equal .
 Note that there is a reference after 1283: <checkPassword+0x7a>
   If you add 0x7a to the the checkPassword's address (0x1209),
   you will get 0x1283 (that is some lines bellow) (cmd: python -c 'print(hex(0x1209+0x7a))'):
